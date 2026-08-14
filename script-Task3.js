@@ -36,7 +36,7 @@ if (
     balance = balance - withdrawalAmount;
 
     console.log("Withdrawal successful");
-    console.log("Remaining balance: ₹" + balance);
+    console.log("Remaining balance:" + balance);
 } else {
     if (withdrawalAmount <= 0) {
         console.log("Withdrawal amount must be greater than 0");
