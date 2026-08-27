@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Fake Store</title>
+    <link rel="stylesheet" href="final.css">
+    <script src="script-final-Task.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>FAKE STORE</h1>
+    </header>
+
+    <div class="container">
+        <!-- Search  -->
+        <div class="search-section">
+            <label for="searchInput">Search Product:</label>
+            <input type="text" id="searchInput" placeholder="Search by title...">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <!-- Dynamic Buttons -->
+        <div id="categoryButtons" class="category-section"></div>
+
+        <!-- Sort Section & Product Count -->
+        <div class="sort-section">
+            <div class="sort-buttons">
+                <span>Sort:</span>
+                <button id="lowToHigh">Low → High</button>
+                <button id="highToLow">High → Low</button>
+            </div>
+            <div id="totalProducts" class="total-count">Total Products: 0</div>
+        </div>
+
+        <hr>
+
+        <div class="apicard"></div>
+    </div>
+
+</body>
+
+</html>
